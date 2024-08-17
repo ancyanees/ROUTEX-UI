@@ -1,0 +1,302 @@
+/* General Styling */
+header {
+    background-color: #fff;
+    border-bottom: 1px solid #eee;
+}
+.text-clr{
+    color: #195844;
+}
+.nav-link {
+    margin-right: 20px;
+    font-weight: 500;
+    font-weight: bolder;
+}
+
+.nav-link:hover {
+    color: #28a745;
+}
+
+.contact-info {
+    font-size: 16px;
+    font-weight: 600;
+    color: #343a40;
+}
+/* General Styling */
+body {
+    font-family: Arial, sans-serif;
+}
+
+.colrspan{
+    color: #83ca27;
+}
+.colrspan1{
+    background-color: #83ca27;
+    border-radius: 20px !important;
+}
+.sec h1 {
+    font-size: 48px;
+    margin-bottom: 10px;
+}
+
+.sec p {
+    font-size: 24px;
+    margin-bottom: 30px;
+}
+
+.about-us h3 {
+    font-size: 24px;
+    margin-top: 15px;
+}
+
+.service-box {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+
+.social-icons i {
+    font-size: 18px;
+}
+
+.help-section {
+    text-align: center;
+    
+}
+.help-section .icon {
+    font-size: 20px;
+    
+}
+.help-section .phone-number {
+    font-size: 15px;
+    color: #195844;
+}
+
+.carousel-item {
+    height: 100vh;
+    min-height: 300px;
+    background: no-repeat center center scroll;
+    background-size: cover;
+  }
+  .carousel-caption {
+    bottom: 50%;
+    transform: translateY(50%);
+  }
+  .carousel-caption h2 {
+    font-size: 3rem;
+  }
+
+
+  .about-us {
+    background-color: #f9f9f9;
+    padding: 30px;
+    border-radius: 10px;
+}
+.about-us h2 {
+    font-size: 32px;
+    font-weight: bold;
+}
+.about-us p {
+    color: #6c757d;
+}
+.about-us .features {
+    margin-top: 20px;
+}
+.feature {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.feature i {
+    color: #83ca27;
+    margin-right: 10px;
+    font-size: 1.2rem;
+}
+.feature p {
+    margin: 0;
+}
+.image-stack {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+.image-stack img {
+    width: 100%;
+    border-radius: 10px;
+}
+.image-stack img.small-img {
+    width: calc(50% - 5px); /*Half width minus gap for smaller images*/
+ } 
+
+
+.experience-badge {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+.experience-badge img {
+    width: 100%;
+    border-radius: 10px;
+}
+.badge-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 1.5rem;
+    font-weight: bold;
+    background-color: #83ca27;
+    padding: 30px 30px;
+    border-radius: 10px;
+}
+
+
+/* section3 */
+
+.services-section {
+    padding: 60px 0;
+    background-image: url('../img/service.png'); /* Replace with your background image URL */
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    z-index: 1;
+}
+.services-section::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.8); /* White overlay with opacity */
+    z-index: -1; /* Place behind the content */
+}
+.services-section {
+    padding: 60px 0;
+}
+.services-section h2 {
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+.service-card {
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    text-align: center;
+    transition: transform 0.3s;
+}
+.service-card:hover {
+    transform: translateY(-10px);
+}
+
+.service-card i {
+    font-size: 3rem;
+    color: #83ca27;
+    margin-bottom: 20px;
+}
+.service-card h5 {
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+.carousel-controls {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+.carousel-controls i {
+    font-size: 2rem;
+    color: #195844;
+    cursor: pointer;
+    margin: 0 15px;
+    transition: color 0.3s;
+}
+.carousel-controls i:hover {
+    color: #218838;
+}
+
+/* footer */
+.footer {
+    background-color: #0b3f27;
+    color: white;
+    padding: 50px 0;
+}
+
+.footer p {
+    margin-bottom: 15px;
+    line-height: 1.6;
+}
+.footer .service-menu,
+.footer .useful-link,
+.footer .gallery {
+    list-style: none;
+    padding: 0;
+}
+.footer .service-menu li,
+.footer .useful-link li {
+    margin-bottom: 10px;
+}
+.footer .service-menu li i,
+.footer .useful-link li i {
+    margin-right: 8px;
+    color: #81c784;
+}
+.footer .gallery img {
+    width: 70px;
+    height: 60px;
+    border-radius: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    object-fit: cover;
+}
+.social-icons i {
+    font-size: 20px;
+    color: white;
+    margin-right: 15px;
+    transition: color 0.3s;
+}
+.social-icons i:hover {
+    color: #81c784;
+}
+.footer-bottom {
+    border-top: 1px solid #1b5e3d;
+    padding-top: 15px;
+    margin-top: 30px;
+    font-size: 14px;
+}
+.footer-bottom a {
+    color: white;
+    margin-right: 15px;
+    transition: color 0.3s;
+}
+.footer-bottom a:hover {
+    color: #81c784;
+}
+/* .scroll-to-top {
+    background-color: #81c784;
+    color: white;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 40px;
+    position: absolute;
+    right: 30px;
+    bottom: 30px;
+    transition: background-color 0.3s;
+}
+.scroll-to-top:hover {
+    background-color: #66bb6a;
+} */
+.links a{
+    text-decoration: none;
+}
+.uselink a{
+    text-decoration: none;
+    color: white;
+}
+.uselink a :hover{
+    background-color: #66bb6a;
+}
